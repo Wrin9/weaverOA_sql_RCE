@@ -1,5 +1,10 @@
 # weaverOA_sql_RCE
-## 泛微OA某版本的SQL远程命令执行漏洞
+## 泛微OA某版本的SQL代码执行漏洞
+### 2022.04.20
+经过测试，该漏洞属于泛微OA msssql远程代码执行漏洞。
+测试如图：
+![1650428637(1)](https://user-images.githubusercontent.com/54984589/164150112-b8ef1ee8-ff9a-4509-b75f-c73f199a5be9.png)
+
 POC:
 PS:url结尾不能有[/],例如：http://127.0.0.1:8080，不能为http://127.0.0.1:8080/
 
