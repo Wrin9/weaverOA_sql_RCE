@@ -1,4 +1,4 @@
-# weaverOA_sql_injection
+# weaverOA_sql_RCE
 ## 泛微OA某版本的SQL远程命令执行漏洞
 POC:
 PS:url结尾不能有[/],例如：http://127.0.0.1:8080，不能为http://127.0.0.1:8080/
